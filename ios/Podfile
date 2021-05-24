@@ -3,7 +3,7 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'praanahita' do
+target 'Praanahita' do
   config = use_native_modules!
 
   use_react_native!(
@@ -13,7 +13,7 @@ target 'praanahita' do
   )
 
 
-  target 'praanahitaTests' do
+  target 'PraanahitaTests' do
     inherit! :complete
     # Pods for testing
   end
